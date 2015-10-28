@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{ns}
+Andrea L.~Bertozzi Bertalmio, Marcelo and Guillermo Sapiro.
+\newblock "navier-stokes, fluid dynamics, and image and video inpainting".
+\newblock {\em "In Computer Vision and Pattern Recognition"}, pages 1--355,
+  2001.
+
+\bibitem{poisson}
+Patrick P{\'e}rez, Michel Gangnet, and Andrew Blake.
+\newblock Poisson image editing.
+\newblock {\em ACM Trans. Graph.}, 22(3):313--318, July 2003.
+
+\bibitem{grabcut}
+Carsten Rother, Vladimir Kolmogorov, and Andrew Blake.
+\newblock "grabcut": Interactive foreground extraction using iterated graph
+  cuts.
+\newblock {\em ACM Trans. Graph.}, 23(3):309--314, August 2004.
+
+\bibitem{telea}
+Alexandru Telea.
+\newblock "an image inpainting technique based on the fast marching method.".
+\newblock {\em "Journal of graphics tools"}, pages 23--24, 2004.
+
+\end{thebibliography}

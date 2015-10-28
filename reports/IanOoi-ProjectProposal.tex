@@ -1,0 +1,22 @@
+\documentclass[12pt]{article}
+
+\title{CV for VFX Final project proposal}
+\author{Ian Ooi}
+\date{Due March 17, 2014}
+
+\begin{document}
+	\maketitle
+	\paragraph{Description:} Origami bird, hands fold one on a table, next one folds itself and flies off the table and outside, touring around before returning to its table.  This could potentially be done with stop motion where the inpainting removes wires or stands holding the models or with smooth footage.  The downside of smooth footage would be that inpainting hands may be much more difficult due to the size of the region and potential blurring creating difficult frames where ``tween'' frames have a bad setup for inpainting and matting.
+	\paragraph{Effects used:} The paper folding and moving itself will be accomplished by removing hands, wires, and stands with inpainting techniques.  This is absolutely necessary for a ``paper folding itself'' technique.  To have the origami bird flying through an outside environment, a matte will be needed and the image will then need to be re-lit and composited with the background.
+	\paragraph{Source of footage and data:} Footage will come from personal capture of the bird, paper, and outdoor environment.  I'm consulting a friend who works with stop motion for advice on capturing the footage and various techniques for moving and posing models.  
+	\paragraph{Software use:} The footage will be processed frame by frame with Matlab or OpenCV code.  The video will be captured as stop motion, with each frame (those that need processing) processed for the visual effects using OpenCV or Matlab (I'm leaning currently towards OpenCV but Matlab may be more time efficient).  For final video finishing I will be using Adobe AfterEffects.
+	\paragraph{Tasklist and approximate schedule}
+	\begin{itemize}
+		\item Inpainting code: this will need to be an implementation of something like patchmatch (1.5-2 weeks)
+		\item Matting code (modification of the homework assignment, 1 week)
+		\item Compositing code (poisson or similar, modification of homework, 1 week)
+		\item Footage capture (3 days)
+		\item Footage processing (5 days)
+		\item Final compositing and finishing (2 days)
+	\end{itemize}
+\end{document}
